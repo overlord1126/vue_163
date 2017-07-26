@@ -1,21 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <Homepage></Homepage>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Homepage from './components/homepage'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Homepage
   }
 }
 </script>
-
+<style lang="less">
+	@import '~vux/src/styles/reset.less';
+</style>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -23,6 +24,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
