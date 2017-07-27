@@ -16,6 +16,7 @@ export default {
 </script>
 <style lang="less">
 	@import '~vux/src/styles/reset.less';
+	@import '~vux/src/styles/1px.less';
 </style>
 <style>
 #app {
@@ -24,5 +25,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
 }
+
+
 </style>
